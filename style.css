@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: black;
+    color: #fff;
+}
+header{
+    width: 100%;
+    height: 40px;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    background-color: rgb(22, 21, 21);
+    color: #fff;
+    text-decoration: none;
+}
+header .logo{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+    text-decoration: none;
+}
+.logo i{
+    vertical-align: auto;
+    color: gold;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    list-style: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+.list a:hover{
+    color: goldenrod;
+}
+.list a:active{
+    color: goldenrod;
+}
+.icon{
+    width: 70px;
+    height: 30px;
+    background-color: goldenrod;
+    border-radius: 15px;
+    border: gray;
+}
+.icon a{
+    color: black;
+}
+.icon:hover{
+    background: #fff;
+    color: black;
+    box-shadow: #ff9f0d 0px 1px 25px;
+}
+.page{
+    position: absolute;
+    margin-top: 6%;
+    display: flex;
+    width: 50%;
+    align-items: center;
+    padding-left: 20%;
+}
+.page .text{
+    padding-right: 100px;
+    font-size: 25px;
+    margin-right: 50px;
+
+}
+.page .color-text{
+    color: goldenrod;
+    margin-right: 20px;
+
+}
+.btc{
+    margin-top: 20px;
+    display: inline-block;
+    padding: 18px;
+    background: rgb(40, 38, 38);
+    color: goldenrod;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    border-radius: 3rem;
+    gap: 3px;
+    transition: all.50s ease;
+}
+.btc1{
+    vertical-align: middle;
+    margin-left: 9px;
+    font-size: 15px;
+    color: goldenrod;
+    text-decoration: none;
+    border-bottom: 3px solid #ff9f0d;
+}
+.btc:hover{
+    background: goldenrod;
+    color: black;
+    box-shadow: #ff9f0d 0px 1px 25px;
+}
+.btc1:hover{
+    transform: scale(1.1) translateX(12px);
+}
+.img img{
+    width: 400px;
+}
+
+.container{
+    margin-top: 50%;
+    display: flex;
+}
